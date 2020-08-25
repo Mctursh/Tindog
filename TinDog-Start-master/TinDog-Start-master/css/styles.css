@@ -1,0 +1,346 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+p{
+  color: #8f8f8f;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat';
+}
+a{
+  text-align: right;
+  font-size: large;
+  margin: auto 0.625rem;
+}
+.pink{
+  background-color: #ff4c68;
+}
+/* Title section */
+#title{
+  color: white;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-header{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.slant{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 10rem;
+}
+
+ /* Download Button */
+ .download-button{
+   margin: 1.875rem 0.45rem 0.625rem 0.45rem;
+ }
+
+
+/* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.row{
+  margin-right: 0;
+  margin-top: 4.375rem;
+  margin-left: 0;
+}
+
+
+/* Navbar */
+.navbar-brand{
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 0;
+}
+.navbar{
+  padding-left: 0;
+}
+.high{
+  font-size: xx-large;
+}
+
+
+/* Feature Section */
+#features{
+  background-color: #fff;
+}
+.index{
+  background-color: #fff;
+  position: relative;
+}
+i:hover{
+  color: #ff4c68;
+}
+.space{
+  margin: 30px auto;
+  padding: 5%;
+}
+.space{
+  margin: 30px auto;
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin: 20%;
+}
+.sub-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/*************testimonial**********/
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+}
+/* PRESS SECTION */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-icon{
+  padding: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing section */
+.pricing-header{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+/* CTA Section */
+.cta-heading{
+  color: #fff;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+.marg{
+  margin: auto 2%;
+}
+/* Footer Section */
+#footer{
+  background-color: #fff;
+}
+.foot{
+  margin: 2% 1%;
+}
+
+/* media queries */
+@media (max-width: 1055px) {
+  .slant{
+    position: static;
+    transform: rotate(0);
+  }
+  .cent{
+    text-align: center;
+  }
+}
+
+@media (max-width: 912px) {
+  a{
+    font-size: 0.9rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  .title-header{
+    font-size: 2.9rem;
+  }
+  .download-button{
+    font-size: 1.2rem;
+  }
+  .slant{
+    width: 50%;
+  }
+  .testimonial-text{
+    font-size: 200%;
+  }
+  .pricing-header{
+    font-size: 250%;
+  }
+  .cta-heading{
+    font-size: 2rem;
+  }
+  .high{
+    font-size: 200%;
+  }
+
+
+}
+
+@media (max-width: 712px) {
+  a{
+    font-size: 0.8rem;
+  }
+  h3{
+    font-size: 0.8rem;
+  }
+  .title-header{
+    font-size: 2.5rem;
+  }
+  .download-button{
+    font-size: 0.8rem;
+  }
+  .slant{
+    width: 40%;
+  }
+  .testimonial-text{
+    font-size: 150%;
+  }
+  .pricing-header{
+    font-size: 200%;
+  }
+  .cta-heading{
+    font-size: 2rem;
+  }
+  .high{
+    font-size: 150%;
+  }
+
+
+}
+
+@media (max-width: 612px) {
+  a{
+    font-size: 0.7rem;
+  }
+  h3{
+    font-size: 0.65rem;
+  }
+  .title-header{
+    font-size: 1.9rem;
+  }
+  .download-button{
+    font-size: 0.9rem;
+  }
+  .slant{
+    width: 40%;
+  }
+  .testimonial-text{
+    font-size: 145%;
+  }
+  .pricing-header{
+    font-size: 195%;
+  }
+  .cta-heading{
+    font-size: 1.95rem;
+  }
+  .high{
+    font-size: 145%;
+  }
+
+
+}
+
+@media (max-width: 512px) {
+  a{
+    font-size: 0.6rem;
+  }
+  h3{
+    font-size: 0.5rem;
+  }
+  .title-header{
+    font-size: 1.75rem;
+  }
+  .download-button{
+    font-size: 0.75rem;
+  }
+  .slant{
+    width: 40%;
+  }
+  .testimonial-text{
+    font-size: 125%;
+  }
+  .pricing-header{
+    font-size: 175%;
+  }
+  .cta-heading{
+    font-size: 1.75rem;
+  }
+  .high{
+    font-size: 125%;
+  }
+
+
+}
+
+
+
+@media (max-width: 425px) {
+  p{
+    font-size: 80%;
+  }
+  a{
+    font-size: 0.7rem;
+  }
+  h3{
+    font-size: 0.4rem;
+  }
+  .title-header{
+    font-size: 1.5rem;
+  }
+  .download-button{
+    font-size: 0.3rem;
+  }
+  .slant{
+    width: 40%;
+  }
+  .testimonial-text{
+    font-size: 100%;
+  }
+  .pricing-header{
+    font-size: 150%;
+  }
+  .cta-heading{
+    font-size: 1.3rem;
+  }
+  .high{
+    font-size: 130%;
+  }
+  .sml{
+    font-size: 80%;
+  }
+
+
+}
+
+@media (max-width: 320px) {
+  p{
+    font-size: 60%;
+  }
+  .title-header{
+    font-size: 1.25rem;
+  }
+
+}
