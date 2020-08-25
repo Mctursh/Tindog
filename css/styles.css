@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -13,6 +16,7 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat';
 }
 a{
+  text-align: right;
   font-size: large;
   margin: auto 0.625rem;
 }
@@ -42,7 +46,7 @@ a{
 
  /* Download Button */
  .download-button{
-   margin: 1.875rem 0.9375rem 0.625rem 0;
+   margin: 1.875rem 0.45rem 0.625rem 0.45rem;
  }
 
 
@@ -56,6 +60,7 @@ a{
 .row{
   margin-right: 0;
   margin-top: 4.375rem;
+  margin-left: 0;
 }
 
 
@@ -160,4 +165,182 @@ i:hover{
   .cent{
     text-align: center;
   }
+}
+
+@media (max-width: 912px) {
+  a{
+    font-size: 0.9rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  .title-header{
+    font-size: 2.9rem;
+  }
+  .download-button{
+    font-size: 1.2rem;
+  }
+  .slant{
+    width: 50%;
+  }
+  .testimonial-text{
+    font-size: 200%;
+  }
+  .pricing-header{
+    font-size: 250%;
+  }
+  .cta-heading{
+    font-size: 2rem;
+  }
+  .high{
+    font-size: 200%;
+  }
+
+
+}
+
+@media (max-width: 712px) {
+  a{
+    font-size: 0.8rem;
+  }
+  h3{
+    font-size: 0.8rem;
+  }
+  .title-header{
+    font-size: 2.5rem;
+  }
+  .download-button{
+    font-size: 0.8rem;
+  }
+  .slant{
+    width: 40%;
+  }
+  .testimonial-text{
+    font-size: 150%;
+  }
+  .pricing-header{
+    font-size: 200%;
+  }
+  .cta-heading{
+    font-size: 2rem;
+  }
+  .high{
+    font-size: 150%;
+  }
+
+
+}
+
+@media (max-width: 612px) {
+  a{
+    font-size: 0.7rem;
+  }
+  h3{
+    font-size: 0.65rem;
+  }
+  .title-header{
+    font-size: 1.9rem;
+  }
+  .download-button{
+    font-size: 0.9rem;
+  }
+  .slant{
+    width: 40%;
+  }
+  .testimonial-text{
+    font-size: 145%;
+  }
+  .pricing-header{
+    font-size: 195%;
+  }
+  .cta-heading{
+    font-size: 1.95rem;
+  }
+  .high{
+    font-size: 145%;
+  }
+
+
+}
+
+@media (max-width: 512px) {
+  a{
+    font-size: 0.6rem;
+  }
+  h3{
+    font-size: 0.5rem;
+  }
+  .title-header{
+    font-size: 1.75rem;
+  }
+  .download-button{
+    font-size: 0.75rem;
+  }
+  .slant{
+    width: 40%;
+  }
+  .testimonial-text{
+    font-size: 125%;
+  }
+  .pricing-header{
+    font-size: 175%;
+  }
+  .cta-heading{
+    font-size: 1.75rem;
+  }
+  .high{
+    font-size: 125%;
+  }
+
+
+}
+
+
+
+@media (max-width: 425px) {
+  p{
+    font-size: 80%;
+  }
+  a{
+    font-size: 0.7rem;
+  }
+  h3{
+    font-size: 0.4rem;
+  }
+  .title-header{
+    font-size: 1.5rem;
+  }
+  .download-button{
+    font-size: 0.3rem;
+  }
+  .slant{
+    width: 40%;
+  }
+  .testimonial-text{
+    font-size: 100%;
+  }
+  .pricing-header{
+    font-size: 150%;
+  }
+  .cta-heading{
+    font-size: 1.3rem;
+  }
+  .high{
+    font-size: 130%;
+  }
+  .sml{
+    font-size: 80%;
+  }
+
+
+}
+
+@media (max-width: 320px) {
+  p{
+    font-size: 60%;
+  }
+  .title-header{
+    font-size: 1.25rem;
+  }
+
 }
